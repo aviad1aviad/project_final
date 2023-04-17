@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
  
-contract simplebank {
+contract Simplebank {
         uint public numberOfFunders;
         mapping (address => bool) private funders;
         mapping (uint => address) private lutFunders;
